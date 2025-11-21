@@ -13,7 +13,7 @@ Princípios de UI Clean e layout pixel-perfect
 
 ## 🚀 Demonstração
 
-## 🔗 Deploy no Netlify: (adicionar aqui depois do deploy)
+## 🔗 Deploy no Netlify: https://n1njii.netlify.app
 ## 🔗 Repositório GitHub: https://github.com/N1nji/supremo-crm-teste
 
 ## 🧩 Objetivo do Desafio
@@ -55,7 +55,7 @@ Netlify (Deploy)
 ## 🔧 Como Rodar Localmente
 
 # Clone o repositório  
-git clone https://github.com/N1nji/supremo-crm-teste-frontend
+git clone https://github.com/N1nji/supremo-crm-teste
 
 # Entre na pasta  
 cd supremo-crm-teste
@@ -89,7 +89,7 @@ Cards CTA com overlay escuro fiel ao JPG
 Tipografia refinada  
 Imagens otimizadas  
 
-📞 Contato
+## 📞 Contato
 
 Feito por N1nji (Felipe)
 💼 Desenvolvedor FullStack
