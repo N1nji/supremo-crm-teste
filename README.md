@@ -13,8 +13,8 @@ Princípios de UI Clean e layout pixel-perfect
 
 ## 🚀 Demonstração
 
-🔗 Deploy no Netlify: https://n1njii.netlify.app
-🔗 Repositório GitHub: https://github.com/N1nji/supremo-crm-teste
+🔗 Deploy no Netlify: https://n1njii.netlify.app  
+🔗 Repositório GitHub: https://github.com/N1nji/supremo-crm-teste  
 
 ## 🧩 Objetivo do Desafio
 
