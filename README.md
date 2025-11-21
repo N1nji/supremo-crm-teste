@@ -2,7 +2,7 @@
 Reproduzindo layout fornecido usando HTML, CSS e Bootstrap  
 
 Este projeto foi desenvolvido como parte do processo seletivo para Desenvolvedor Frontend na Supremo CRM.  
-O objetivo foi reproduzir fielmente um layout enviado em JPEG, utilizando:  
+O objetivo foi reproduzir fielmente um layout enviado em PNG, utilizando:  
 
 HTML5  
 CSS3  
@@ -54,7 +54,9 @@ Netlify (Deploy)
 
 ## 🔧 Como Rodar Localmente
 
-# Clone o repositório  
+# Clone o repositório 
+
+```bash 
 git clone https://github.com/N1nji/supremo-crm-teste
 
 # Entre na pasta  
@@ -62,7 +64,7 @@ cd supremo-crm-teste
 
 # Abra o index.html no navegador
 Não há dependências — é 100% HTML e CSS.
-
+```
 
 ## 📱 Responsividade
 
