@@ -13,25 +13,25 @@ Princípios de UI Clean e layout pixel-perfect
 
 ## 🚀 Demonstração
 
-## 🔗 Deploy no Netlify: https://n1njii.netlify.app
-## 🔗 Repositório GitHub: https://github.com/N1nji/supremo-crm-teste
+🔗 Deploy no Netlify: https://n1njii.netlify.app
+🔗 Repositório GitHub: https://github.com/N1nji/supremo-crm-teste
 
 ## 🧩 Objetivo do Desafio
 
-O avaliador enviou um layout em JPEG e solicitou:
+O avaliador enviou um layout em PNG e solicitou:
 
 “Montar exatamente o layout usando HTML, CSS + Bootstrap, mantendo fidelidade visual e estrutura limpa.”
 
 Este projeto foi construído seguindo fielmente:
 
-✔ Estrutura
-✔ Cores
-✔ Ícones
-✔ Espaçamento
-✔ Hierarquia visual
-✔ Tipografia
-✔ Proporções das seções
-✔ Comportamento responsivo
+✔ Estrutura  
+✔ Cores  
+✔ Ícones  
+✔ Espaçamento  
+✔ Hierarquia visual  
+✔ Tipografia  
+✔ Proporções das seções  
+✔ Comportamento responsivo  
 
 ## 🛠️ Tecnologias Utilizadas
 
