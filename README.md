@@ -91,9 +91,9 @@ Imagens otimizadas
 
 ## 📞 Contato
 
-Feito por N1nji (Felipe)
-💼 Desenvolvedor FullStack
-🌐 GitHub: https://github.com/N1nji
+Feito por N1nji (Felipe)  
+💼 Desenvolvedor FullStack  
+🌐 GitHub: https://github.com/N1nji  
 
 ## 🧠 Considerações finais
 
