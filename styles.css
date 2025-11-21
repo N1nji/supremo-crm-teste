@@ -1,0 +1,751 @@
+/* =========================================
+   GLOBAL
+========================================= */
+
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.section-divider {
+    width: 100%;
+    height: 2px;
+    background: #e5e5e5;
+    margin: 50px 0;
+}
+
+/* =========================================
+   HERO SECTION
+========================================= */
+
+.hero-section {
+    background: url('img/hero.jpeg') no-repeat center center;
+    background-size: cover;
+    padding: 40px 0 150px 0;
+    position: relative;
+}
+
+.nav-float {
+    background: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Hambúrguer custom (duas linhas) */
+.menu-custom {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    background: none;
+    border: none;
+}
+
+.menu-custom .line {
+    height: 3px;
+    background: white;
+    border-radius: 2px;
+}
+
+.menu-custom .line-big {
+    width: 22px;
+}
+
+.menu-custom .line-small {
+    width: 15px;
+}
+
+.hero-content {
+    margin-top: 80px;
+}
+
+.hero-title {
+    font-size: 2.1rem;
+    font-weight: 700;
+    text-shadow: 0px 2px 6px rgba(0,0,0,0.5);
+}
+
+
+/* =========================================
+   SEARCH BOX
+========================================= */
+
+.search-box {
+    max-width: 900px;
+    backdrop-filter: blur(14px);
+    background: rgba(0, 0, 0, 0.45);
+    border-radius: 14px;
+    border: 1px solid rgba(255,255,255,0.25);
+    color: #fff;
+}
+
+/* Ícones internos */
+.input-icon {
+    position: relative;
+}
+
+.input-icon i {
+    position: absolute;
+    top: 50%;
+    left: 12px;
+    transform: translateY(-50%);
+    color: #ff7a00;
+    font-size: 15px;
+}
+
+/* Seta ↓ customizada nos selects */
+.input-icon::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ffffff;
+    pointer-events: none;
+}
+
+/* Select transparente */
+.transparent-select {
+    padding-left: 38px !important;
+    padding-right: 32px !important;
+    background: transparent !important;
+    border: none !important;
+    color: #ffffff !important;
+    appearance: none;
+    box-shadow: none !important;
+}
+
+.transparent-select option {
+    color: #000;
+}
+
+/* Input Código */
+.transparent-input {
+    background: transparent !important;
+    border: none;
+    border-bottom: 1px solid rgba(255,255,255,0.5);
+    border-radius: 0;
+    color: #ffffff;
+}
+
+.transparent-input::placeholder {
+    color: rgba(255,255,255,0.7);
+}
+
+.transparent-input:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+/* Botão Busca */
+.btn-search {
+    width: 70px;
+    height: 56px;
+    background-color: #ff7a00;
+    border-radius: 8px;
+    border: none;
+}
+
+.btn-search i {
+    color: white;
+    font-size: 20px;
+}
+
+.btn-search:hover {
+    background: #e86f00;
+}
+
+/* Busca Avançada */
+.advanced-link {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.advanced-link i {
+    font-size: 12px;
+}
+
+.advanced-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22px;
+    height: 22px;
+    border: 1px solid white;
+    border-radius: 4px;
+}
+
+.advanced-box i {
+    font-size: 10px;
+}
+
+/* =========================================
+   CONHEÇA NOSSOS IMÓVEIS
+========================================= */
+
+.spot-card {
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    text-align: left;
+    color: #333333;
+    padding-bottom: 20px;
+}
+
+/* Wrapper da imagem com overlay */
+.spot-img-wrapper {
+    position: relative;
+}
+
+.spot-img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Overlay da imagem */
+.spot-img-overlay {
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+    right: 12px;
+    color: white;
+}
+
+.spot-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+.section-subtitle {
+    color: #ff7a00;
+}
+
+.spot-location {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.spot-location i {
+    color: #ff7a00;
+}
+
+/* Botão seta → dentro da imagem */
+.spot-arrow {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #ff7a00;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 10px;
+    color: white;
+}
+
+.spot-arrow i {
+    font-size: 14px;
+}
+
+/* Lista com → */
+.spot-list {
+    padding-left: 20px;
+    margin-top: 15px;
+    line-height: 1.7;
+}
+
+.spot-list li {
+    list-style: none;
+    font-size: 0.92rem;
+}
+
+.spot-list li::before {
+    content: "→ ";
+    color: #ff7a00;
+    font-weight: bold;
+}
+
+.spot-link {
+    color: #ff7a00;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-left: 20px;
+}
+
+
+
+/* =========================================
+   DESTAQUES
+========================================= */
+
+.highlight-card {
+    background: white;
+    border-radius: 14px;
+    overflow: hidden;
+    color: #333;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+}
+
+.highlight-img-wrapper {
+    position: relative;
+}
+
+.highlight-img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+/* TAG LARANJA */
+.tag-orange {
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #ff7a00;
+    color: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+/* CÓDIGO */
+.tag-code {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: white;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.highlight-info {
+    font-size: 0.9rem;
+    margin-top: 4px;
+}
+
+/* Botão "Ver mais" */
+.see-more-btn {
+    background: white;
+    border: 1px solid #333;
+    padding: 7px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.see-more-btn i {
+    font-size: 12px;
+}
+
+
+
+/* =========================================
+   EXCLUSIVOS
+========================================= */
+
+.exclusivos-section {
+    background: #2f3640;
+    color: white;
+}
+
+.exclusive-card {
+    background: #2f3640;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.15);
+}
+
+.exclusive-img-wrapper {
+    position: relative;
+}
+
+.exclusive-img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+/* TAG */
+.tag-code-dark {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    background: #ffffff;
+    color: #000;
+    padding: 6px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+}
+
+.exclusive-info {
+    color: #dcdcdc;
+}
+
+.see-more-btn-dark {
+    background: transparent;
+    border: 1px solid white;
+    padding: 7px 16px;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+}
+
+.see-more-btn-dark i {
+    font-size: 12px;
+}
+
+/* ================================
+   SEÇÃO SOBRE NÓS (CARD ÚNICO)
+================================ */
+
+.sobre-nos-section {
+    background: #ffffff;
+    padding: 80px 0;
+}
+
+/* CARD UNIFICADO */
+.sobre-nos-card {
+    background: white;
+    border-radius: 20px;
+    max-width: 900px;
+    padding: 40px;
+    margin: 0 auto;
+    position: relative;
+    overflow: visible;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+}
+
+/* TEXTO */
+.sobre-tag {
+    color: #ff7a00;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.sobre-nos-text {
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+/* FOTO 3D SAINDO DO CARD */
+.sobre-nos-photo {
+    position: absolute;
+    right: -270px;      
+    top: -310px;
+    width: 595px;
+    filter: drop-shadow(0 10px 20px rgba(0,0,0,0.23));
+}
+
+/* BOTÃO VER MAIS */
+.sobre-nos-btn {
+    background: transparent;
+    border: 1px solid #333;
+    padding: 8px 18px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #333;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sobre-nos-box {
+    width: 22px;
+    height: 22px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+
+.sobre-nos-box i {
+    font-size: 11px;
+}
+
+
+
+/* ============================
+   CTA AJUSTADA (Anuncie / Equipe)
+============================ */
+
+/* CARD */
+.cta-card {
+    height: 240px;
+    border-radius: 16px;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+
+/* Overlay */
+.cta-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(3, 26, 57, 0.55);
+    border-radius: 16px;
+}
+
+/* Conteúdo acima do overlay */
+.cta-card > * {
+    position: relative;
+}
+
+/* TAG superior */
+.cta-tag {
+    position: absolute;
+    top: 20px;
+    left: 25px;
+    font-size: 0.9rem;
+    color: #ff7a00;
+    font-weight: 600;
+}
+
+/* TÍTULO centralizado */
+.cta-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: left;
+}
+
+/* BOTÃO */
+.cta-btn {
+    margin-top: 45px;
+    color: white;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Quadradinho */
+.cta-box {
+    width: 26px;
+    height: 26px;
+    border: 1px solid white;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-box i {
+    font-size: 12px;
+}
+
+/* ================================
+   FOOTER PRINCIPAL
+================================ */
+
+.footer-section {
+    background: #0c1d36;
+    color: white;
+    margin-top: 60px;
+}
+
+.footer-logo {
+    width: 170px;
+}
+
+/* Redes sociais */
+.footer-social a {
+    color: white;
+    font-size: 1.3rem;
+    transition: 0.2s;
+}
+
+.footer-social a:hover {
+    color: #ff7a00;
+}
+
+/* Telefone */
+.footer-phone {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-phone i {
+    margin-right: 8px;
+    font-size: 1.7rem;
+}
+
+/* Divider */
+.footer-divider {
+    width: 100%;
+    height: 1px;
+    background: rgba(255,255,255,0.15);
+    margin: 25px 0 30px 0;
+}
+
+/* Títulos */
+.footer-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #dbe6f3;
+}
+
+/* Listas */
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-list li {
+    margin-bottom: 8px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: #b7c7db;
+    font-size: 0.92rem;
+}
+
+.footer-list a:hover {
+    color: white;
+}
+
+/* FOOTER FINAL BRANCO */
+.footer-white-only {
+    background: #ffffff;
+    color: #333;
+    text-align: center;
+    padding: 25px 0;
+    font-size: 0.95rem;
+    border-top: 1px solid #e5e5e5;
+}
+
+
+
+/* ==========================================
+   RESPONSIVIDADE
+========================================== */
+
+@media (max-width: 992px) {
+
+    /* HERO */
+    .hero-title {
+        font-size: 1.8rem;
+    }
+
+    .hero-section {
+        padding: 40px 0 100px;
+    }
+
+    /* Search */
+    .search-box {
+        padding: 20px !important;
+    }
+
+    .transparent-select {
+        padding-left: 35px !important;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+    /* HERO */
+    .hero-title {
+        font-size: 1.6rem;
+        line-height: 1.3;
+    }
+
+    .hero-content {
+        margin-top: 30px;
+    }
+
+    /* SEARCH BOX */
+    .search-box {
+        padding: 15px !important;
+    }
+
+    /* Inputs */
+    .input-icon::after {
+        right: 8px;
+    }
+
+    .transparent-input {
+        margin-top: 5px;
+    }
+
+    /* SOBRE NÓS — Ajuste da imagem 3D */
+    .sobre-nos-card {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .sobre-nos-photo {
+        position: static;
+        width: 260px;
+        margin: 20px auto 0;
+        display: block;
+        transform: none;
+    }
+
+    /* CTA */
+    .cta-card {
+        height: auto;
+        padding: 40px 25px;
+        text-align: center;
+    }
+
+    .cta-title {
+        font-size: 1.6rem;
+    }
+
+    .cta-btn {
+        justify-content: center;
+        margin-top: 25px;
+    }
+
+    /* Footer */
+    .footer-top {
+        text-align: center;
+    }
+
+    .footer-phone {
+        justify-content: center !important;
+    }
+}
+
+
+
+@media (max-width: 480px) {
+
+    /* HERO */
+    .hero-title {
+        font-size: 1.35rem;
+    }
+
+    /* SOBRE NÓS */
+    .sobre-nos-photo {
+        width: 200px;
+    }
+
+    /* CTA */
+    .cta-title {
+        font-size: 1.4rem;
+    }
+}
